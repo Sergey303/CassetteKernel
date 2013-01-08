@@ -10,7 +10,7 @@ namespace CassetteKernel
     public class CassettesConnection
     {
         public static Dictionary<string, factograph.CassetteInfo> cassettesInfo = new Dictionary<string, factograph.CassetteInfo>();
-        private static Dictionary<string, factograph.RDFDocumentInfo> docsInfo = new Dictionary<string, factograph.RDFDocumentInfo>();
+        public static Dictionary<string, factograph.RDFDocumentInfo> docsInfo = new Dictionary<string, factograph.RDFDocumentInfo>();
         public static void ConnectToCassettes(IEnumerable<XElement> LoadCassette_elements, LogLine protocol)
         {
             cassettesInfo = new Dictionary<string, factograph.CassetteInfo>();
