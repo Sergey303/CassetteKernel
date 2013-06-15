@@ -341,8 +341,22 @@ namespace factograph
             new DocType(".tif", "image/tiff", ONames.TagPhotodoc),
             new DocType(".jpg", "image/jpeg", ONames.TagPhotodoc),
             new DocType(".gif", "image/gif", ONames.TagPhotodoc),
+
+            
+           // new DocType(".3g2", "audio/3gpp2", ONames.TagAudio),
+          //  new DocType(".3gp", "audio/3gpp", ONames.TagAudio),
+            new DocType(".flac", "audio/x-flac", ONames.TagAudio),
+            new DocType(".m4a", "audio/mp4", ONames.TagAudio),
             new DocType(".mp3", "audio/mpeg", ONames.TagAudio),
+            new DocType(".wma", "audio/x-ms-wma", ONames.TagAudio),
+         //   new DocType(".ogg", "audio/ogg", ONames.TagAudio),
+            new DocType(".oga", "audio/ogg", ONames.TagAudio),
             new DocType(".wav", "audio/x-wav", ONames.TagAudio),
+
+            new DocType(".3g2", "audio/3gpp2", ONames.TagVideo),
+            new DocType(".3gp", "video/3gpp", ONames.TagVideo),
+            new DocType(".ogv", "video/ogg", ONames.TagVideo),
+            new DocType(".ogg", "video/ogg", ONames.TagVideo),
             new DocType(".mpg", "video/mpeg", ONames.TagVideo),
             new DocType(".mpeg", "video/mpeg", ONames.TagVideo),
             new DocType(".avi", "video/x-msvideo", ONames.TagVideo),
@@ -352,6 +366,7 @@ namespace factograph
             new DocType(".mp4", "video/mp4", ONames.TagVideo),
             new DocType(".mov", "video/mov", ONames.TagVideo),
             new DocType(".mts", "video/mts", ONames.TagVideo),
+
             new DocType(".txt", "application/text", ONames.TagDocument),
             new DocType(".doc", "application/msword", ONames.TagDocument),
             new DocType(".rtf", "application/rtf", ONames.TagDocument),
