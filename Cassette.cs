@@ -353,7 +353,7 @@ namespace factograph
             new DocType(".oga", "audio/ogg", ONames.TagAudio),
             new DocType(".wav", "audio/x-wav", ONames.TagAudio),
 
-            new DocType(".3g2", "audio/3gpp2", ONames.TagVideo),
+            new DocType(".3g2", "video/3gpp2", ONames.TagVideo),
             new DocType(".3gp", "video/3gpp", ONames.TagVideo),
             new DocType(".ogv", "video/ogg", ONames.TagVideo),
             new DocType(".ogg", "video/ogg", ONames.TagVideo),
